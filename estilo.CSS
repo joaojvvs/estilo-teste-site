@@ -1,0 +1,302 @@
+body{
+    background-color: rgb(255, 255, 255);
+color: rgb(37, 33, 33);
+ margin: 0px;
+ font-family:Lora,serif;
+ font-size: 18px;
+}
+
+
+header{
+    background-color: teal;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    
+}
+#Logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    
+}
+#menu{
+    float: right;
+    margin: 10px 20px;
+    list-style: none;
+
+}
+li{
+    float: left;
+    margin: 10px;
+}
+
+ li:hover{
+   background-color: aliceblue;
+
+}
+
+
+
+#capa{
+background:url(img/fundo-de-folhagem-tropical_53876-91352.jpg);
+background-size:cover;
+width:100%;
+height: 70%;
+text-align: center;
+}
+
+#f3 {
+    color: rgb(8, 146, 49);
+    font-size: 45px;
+    padding-top: 125px; 
+    margin-bottom: 10px;
+    text-shadow: black 5px 3px 5px;
+     
+}
+ 
+#subtitulo{
+    border-top: aliceblue solid 1px ;
+    color: aliceblue;
+    margin: 0px 230px 20px ;
+    
+    
+}
+
+#imagem2{
+    height: 30px;
+    
+    margin: 0px 250px;
+    
+}
+
+
+ #ODS{
+     text-decoration: none;
+     color: aliceblue;
+     border: 2px solid;
+     padding: 1px 1px;
+     margin-top: 100px;
+     border-radius: 40px;
+    }
+
+a:hover{
+    background-color:rgb(50, 68, 35);
+    border: dotted 2px;
+}
+
+#texto1{
+    
+    margin: 56px 30px;
+    width:50% ;
+    height: 30%;
+     float :left  
+}
+
+#imagem1{ 
+    
+    float: left;
+    width: 40%;
+    height: 50%;
+    margin: 30px 10px;
+}
+
+ #imagem2{
+     float: left;
+     height: 30px;
+     margin: -85px 270px ;
+     
+}
+
+.titulo1{
+    
+    text-align: center;
+    clear: both;
+    
+}
+.titulo2{
+    
+    text-align: center;
+    clear: both;
+    
+}
+.titulo3{
+    
+    text-align: center;
+    clear: both;
+    
+}
+.titulo4{
+    
+    text-align: center;
+    clear: both;
+    
+}
+
+
+#video{
+    width: 30%;
+    height:30%;
+    float: left;
+    margin: 5px 30px 30px;
+}
+
+#texto3{
+    margin: 10px 20px;
+    float: left;
+    margin: 0px 10px;
+    width: 60%;
+    
+    
+}
+    
+
+
+
+#texto4{
+    
+   float: left;
+   margin: 10px 20px;
+   
+}
+
+
+
+    
+
+
+
+#texto5{
+    
+    margin: 10px 20px;
+    float: left;
+    width: 60%;
+    height: 0%;
+}
+
+#video2{
+    width: 30%;
+    height:30%;
+    float: left;
+    
+}
+.DICA{
+ 
+ 
+}
+
+.Dicas{
+    float: left;
+    border: rgb(133, 126, 126)  solid 2px;
+    text-align: center;
+    margin: 20px 8px;
+    width: 23%;
+    height: 100%;
+    
+    
+}
+
+.img_dicas{
+    width: 25%;
+    height: 25%;
+    margin-top: -10%;
+    
+}
+
+footer{
+    text-decoration: none;
+    background-color: rgb(164, 170, 164);
+    color: rgb(21, 19, 18);
+    text-align: center;
+    height: 70%;
+   
+}
+
+ #foto{
+     width: 25%;
+     height: 40%;
+     border-radius:80% ;
+     padding: 10px;
+     
+ }
+
+ .footer{
+    margin: 0px 230px 20px 
+ }
+
+ @media all and (max-width:768px){
+     #menu{
+         visibility: hidden;
+
+     }
+     #subtitulo{
+        Display:block;
+        width:80%;
+        padding: 5%;
+        margin: 10px auto;
+        float: none;
+
+     }
+     #texto1,#texto2,#texto3,#texto4,#texto5{
+         Display:block;
+         width:80%;
+         padding: 5%;
+         margin: 10px auto;
+         float: none;
+     }
+     .Dicas{
+        Display:block;
+        width:80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+        height:90%;
+        
+     }
+     #video{
+        Display:block;
+        width:90%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+     }
+     #video2{
+        Display:block;
+        width:90%;
+        float: none;
+        margin-top: 50%; 
+        
+     }
+     #imagem1{
+        Display:block;
+        width:40%;
+        padding: 20%;
+       
+        float: none;
+        height: 30%;
+       margin-bottom: 0% ;
+        
+     }
+     #imagem2{
+        Display:block;
+        width: 10%;
+        height: 8%;
+        float: none;
+        align-items: center;
+        visibility: hidden;
+         
+     }
+     
+     .footer{
+         text-align: justify;
+         margin: 10px;
+       
+
+         }
+
+         #foto{
+            width: 60%;
+         }
+ }
+
+
